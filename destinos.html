@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Blog de Viagens</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <style>
+        .tabela-destinos {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .tabela-destinos th {
+            background-color: #574CBA;
+            color: #FADC28;
+            padding: 8px;
+        }
+        .tabela-destinos td {
+            border: 1px solid #574CBA;
+            padding: 8px;
+        }
+        .tabela-destinos tr:nth-child(even) {
+            background-color: #FADC28;
+        }
+        .tabela-destinos tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .cp1{
+            width: 500px;
+            height: 500px;
+            padding: 10px;
+            margin: 2px;
+            background-color: rgb(204, 204, 255);
+            border: solid 5px rgb(0, 0, 255);
+            box-shadow: 10px 5px 5px rgb(0, 0, 121);
+            text-align: center;
+            opacity: 70%;
+            position: relative;
+            left: 100px;
+        }
+
+        .cp1:hover{
+            opacity: 100%;
+        }      
+
+        .cp2{
+            width: 500px;
+            height: 500px;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(255, 141, 141);
+            border: solid 5px rgb(255, 0, 0);
+            box-shadow: 10px 5px 5px rgb(121, 0, 0);
+            text-align: center;
+            opacity: 100%;
+            position: relative;
+            left: 800px;
+            bottom: 540px;
+        }
+
+        .cp2:hover{
+            width: 550px;
+            height: 550px;
+        }   
+
+        .cp3{
+            width: 500px;
+            height: 500px;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(255, 252, 151);
+            border: solid 5px yellow;
+            box-shadow: 10px 5px 5px rgb(124, 124, 0);
+            text-align: center;
+            opacity: 100%;
+            position: relative;
+            left: 1px;
+            bottom: 500px;
+        }
+
+        .cp3:hover{
+            background-color: white;
+        }   
+
+        .cp4{
+            width: 500px;
+            height: 500px;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(255, 188, 99);
+            border: solid 5px orange;
+            box-shadow: 10px 5px 5px rgb(127, 82, 0);
+            text-align: center;
+            opacity: 100%;
+            position: relative;
+            left: 950px;
+            bottom: 1040px;
+        }
+
+        .cp4:hover{
+            color: white;
+        }   
+
+        .cp5{
+            width: 500px;
+            height: 500px;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(79, 79, 255);
+            border: solid 5px rgb(0, 0, 110);
+            box-shadow: 10px 5px 5px rgb(0, 0, 56);
+
+            text-align: center;
+            opacity: 70%;
+            position: relative;
+            bottom: 1000px;
+            left: 512px;
+        }
+
+        .cp5:hover{
+            background-color: white;
+            color: rgb(8, 0, 94);
+            width: 500px;
+            height: 550px;
+            opacity: 100%;
+        }   
+
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 36px;
+        }
+        
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<header>
+    <h1>Meu Blog de Viagens</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="destinos.html">Destinos</a></li>
+            <li><a href="#">Dicas</a></li>
+            <li><a href="#">Sobre Mim</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <table class="tabela-destinos">
+            <tr>
+                <th>Destino</th>
+                <th>Tempo de Voo</th>
+                <th>Melhor Época</th>
+                <th>Pontos Turísticos</th>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>1-2 horas (a partir de São Paulo)</td>
+                <td>Dezembro a Março</td>
+                <td>Cristo Redentor, Pão de Açúcar, Praia de Copacabana</td>
+            </tr>
+            <tr>
+                <td>Manaus</td>
+                <td>4 horas (a partir de São Paulo)</td>
+                <td>Junho a Setembro</td>
+                <td>Teatro Amazonas, Encontro das Águas, Museu do Seringal</td>
+            </tr>
+            <tr>
+                <td>Salvador</td>
+                <td>2-3 horas (a partir de São Paulo)</td>
+                <td>Dezembro a Março</td>
+                <td>Pelourinho, Elevador Lacerda, Igreja do Bonfim</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>-</td>
+                <td>Ano todo</td>
+                <td>Avenida Paulista, Parque Ibirapuera, Museu de Arte de São Paulo (MASP)</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>1-2 horas (a partir de São Paulo)</td>
+                <td>Março a Maio, Setembro a Novembro</td>
+                <td>Serra Gaúcha, Gramado, Cânion Itaimbezinho</td>
+            </tr>
+        </table>
+        
+    </section>
+
+    <div id="container">
+        <div class="cp1">
+            <h2>RIO DE JANEIRO</h2>
+            <p>
+                Descubra a Cidade Maravilhosa! O Rio de Janeiro, com suas praias icônicas como Copacabana e Ipanema, e o imponente Cristo Redentor,
+                encanta a todos com sua beleza natural e ritmo contagiante. Viva a alegria carioca!
+            </p>
+            <img src="imagens/rj.jpg" width="100%">
+        </div>
+        <div class="cp2">
+            <h2>MANAUS</h2>
+            <p>
+                Explore a porta de entrada para a Amazônia! Manaus, com seu icônico Teatro Amazonas e rica biodiversidade, oferece uma experiência 
+                única. Descubra a cultura amazônica e a exuberante floresta tropical.
+            </p>
+            <img src="imagens/manaus.webp" width="96%">
+        </div>
+        <div class="cp3">
+            <h2>SALVADOR</h2>
+            <p>
+                Sinta a energia de Salvador! Com seu Pelourinho histórico, festas de rua animadas e culinária afro-brasileira, esta cidade é um 
+                caldeirão cultural. Deixe-se envolver pelo som do axé e pela hospitalidade baiana.
+            </p>
+            <img src="imagens/salvador.jpg" width="100%">
+        </div>
+        <div class="cp4">
+            <h2>SÃO PAULO</h2>
+            <p>
+                Bem-vindo à metrópole que nunca para! São Paulo, com sua imensa diversidade cultural, gastronômica e arquitetônica, é um centro pulsante de 
+                negócios e entretenimento. Descubra os contrastes e encantos desta cidade vibrante.
+            </p>
+            <img src="imagens/sp.jpg" width="100%">
+        </div>
+        <div class="cp5">
+            <h2>RIO GRANDE DO SUL</h2>
+            <p>
+                Bem-vindo ao coração gaúcho! Explore as tradições e belezas naturais do Rio Grande do Sul, desde os pampas até a charmosa Serra 
+                Gaúcha. Sinta a hospitalidade e o orgulho do sul do Brasil
+            </p>
+            <img src="imagens/rgs.jpg" width="96.2%">
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Meu Blog de Viagens</p>
+</footer>
